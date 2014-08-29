@@ -36,7 +36,7 @@
                 for($i = 0; $i<3; $i = $i + 1){ 
                  echo "
                         <tr> 
-                            <td>$turmas[$i]</td>   
+                            <td>$turma[$i]</td>   
                             <td>$disciplinas[$i]</td> 
                             <td>$semana[$i]</td> 
                             <td>$professores[$i]</td> 
