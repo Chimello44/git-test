@@ -1,0 +1,64 @@
+<?php //Segundo exercicio
+
+      
+
+            echo "<table width='0' border='1'> 
+                <tr>
+                    <td><b>ID</td>   
+                    <td><b>NOME</td> 
+                    <td><b>DESC</td>
+                </tr>";
+                    
+            for($i = 1; $i<7; $i = $i + 1){ 
+                
+                
+                  echo "<tr> 
+                        <td>id</td>   
+                        <td>nome</td> 
+                        <td>desc</td> 
+                    </tr>"; 
+                
+                }
+            
+            echo "</table>";
+        ?>
+
+
+<?php   //exercicio numero primo
+ 
+ $n=0;
+ $x=2;    
+ 
+    for ($i=1; $i<=$x; $i++){
+      if (($x%$i)==0) $n++;
+    } 
+    
+    if ($n<=2){  
+      echo "O numero é primo.";
+    }else{
+      echo "O número não é primo.";
+    }
+   
+
+?>
+
+    </br>
+
+<?php //exercico fibonacci
+
+
+$n1=0;
+$n2=1;
+    
+for ($n3=0; $n3<9; $n3++){
+$n2=$n2+$n1;
+$n1=$n2-$n1;
+echo $n1.",";
+}
+
+?>
+    
+   
+    
+<html>
+</html>
